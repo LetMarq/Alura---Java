@@ -1,0 +1,11 @@
+
+public class Conta {
+
+	String nome; 
+	String cpf;
+	String profissao;
+	
+
+	}
+
+}

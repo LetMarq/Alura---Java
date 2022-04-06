@@ -1,0 +1,16 @@
+
+public class TesteConexao {
+
+	public static void main(String[] args) {
+		Conexao con = null;
+		// TODO Auto-generated method stub
+		try {
+			con = new Conexao();
+			con.leDados();
+			con.fecha();
+		} catch (IllegalStateException e) {
+			// TODO: handle exception
+		}
+	}
+
+}
